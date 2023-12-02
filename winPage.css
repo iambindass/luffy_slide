@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(166,99,0);
+    align-items: center;
+}
+h1{
+
+    text-align: center;
+    font-size: 40px;
+}
+p{
+text-align: center;
+margin-top: 15%;
+font-size: 30px;
+
+}
+.container{
+    background-color: rgb(219,176,110);
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgb(166, 100, 0)
+    position: relative;
+    overflow: hidden;
+    width: 768px;
+    max-width: 100%;
+    min-height: 480px;
+    margin-left: 23%;
+    margin-top: 8%;
+}
+button {
+
+    width: 200px;
+    height: 80px;
+    top: 650px;
+    font-size: 20px;
+    margin-left: 38%;
+    padding: 10px 20px;
+    background-color: rgb(253, 208, 28);
+    color: rgb(255, 0,18 );
+    border-color: black;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-top: 10%;
+}

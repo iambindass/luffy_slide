@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(./assets/straw-hat-jolly-roger.jpg) center/cover no-repeat; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+button {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: 650px;
+    padding: 10px 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: rgb(253, 208, 28);
+    color: rgb(255, 0,18 );
+    border-color: black;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#gamename{
+    height: 200px;
+    padding-bottom: 550px;
+    padding-right: 100px;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(166, 99, 0);
+}
+#board {
+    width: 400px;
+    height: 400px;
+    border: 2px solid rgb(227, 12, 12);
+
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:  repeat(5, 65px);
+    grid-template-rows:  repeat(5, 65px);
+    grid-gap: 15px;
+}
+
+#board img {
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid black ;
+}
+
+
+#pieces {
+    width: 1040px;
+    height: 160px;
+    border: 2px solid rgb(227, 12, 12);
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pieces img {
+    width: 78.38px;
+    height: 78.2px;
+    border: 0.5px solid rgb(0, 0, 0);
+}

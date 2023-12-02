@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win Page</title>
+    <link rel="stylesheet" href="winPage.css">
+</head>
+
+<body>
+    <div class="container">
+
+   
+    <h1>Congratulations! You've Won!</h1>
+    <p>Number of Turns: <span id="winTurns"></span></p>
+    <button onclick="startGame()"><a href="intropg.html">PLAY AGAIN</a></button>
+</div>
+    <script src="game.js"></script>
+    <script>
+        // Retrieve the number of turns from localStorage and display it
+        document.getElementById("winTurns").innerText = localStorage.getItem('winTurns');
+    </script>
+</body>
+<script src="hardgame.js"></script>
+</html>

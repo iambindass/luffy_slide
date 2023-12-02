@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 99, 0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+form {
+    position: absolute;
+    bottom: 100px; 
+    right: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 70px auto;
+    padding: 20px;
+    background-color: #612f2f;
+    border-radius: 20px;
+}
+
+input {
+    margin-bottom: 20px; /* Increased margin-bottom */
+    padding: 5px; /* Increased padding */
+    font-size: 30px; /* Increased font size */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 20px 40px; /* Increased padding */
+    font-size: 20px; /* Increased font size */
+    background-color: rgba(0, 0, 0, 0.588);
+    color: rgb(255, 255, 255);
+    border-color: black;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#luffy{
+    position: absolute;
+    height: 600px;
+    left: 30px;
+    bottom: 0px;
+
+}
+#gamename{
+    position: absolute;
+    width: 600px;
+    top: 0px;
+}
